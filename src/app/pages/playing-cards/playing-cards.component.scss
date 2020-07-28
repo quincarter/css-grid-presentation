@@ -1,0 +1,33 @@
+:host {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 2.29in);
+  grid-gap: 0.25in;
+  padding: 0.25in;
+  background-color: green;
+}
+
+
+// no css grid here, just makes the cards flip
+.playingCardWrapper {
+  display: inline-block;
+  position: relative;
+
+  .playingCard {
+    height: 20rem;
+    width: 14rem;
+  }
+
+  .front {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  &:hover {
+    .front {
+      display: inline;
+    }
+  }
+}
+

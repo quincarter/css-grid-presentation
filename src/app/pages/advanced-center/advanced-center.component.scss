@@ -1,0 +1,34 @@
+:host {
+  display: grid;
+  height: 85.96vh;
+  place-items: center;
+}
+
+.mat-card {
+  display: grid;
+  place-items: center;
+  padding: 3rem;
+}
+
+.padlock {
+  height: 100px;
+  margin: 0 0 2rem;
+}
+
+.signInTitle {
+  width: 100%;
+  margin: 0 0 2rem;
+  text-align: center;
+}
+
+.form {
+  margin: 0 1rem;
+}
+
+.wide {
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%;
+}

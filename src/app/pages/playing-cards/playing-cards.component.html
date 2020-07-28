@@ -1,0 +1,6 @@
+<ng-container *ngFor="let card of cards">
+  <div class="playingCardWrapper">
+    <img class="playingCard back" src="assets/img/playing-card.png" [alt]="card">
+    <img class="playingCard front" [src]="'assets/img/cards/' + card + 'D.png'" [alt]="card">
+  </div>
+</ng-container>

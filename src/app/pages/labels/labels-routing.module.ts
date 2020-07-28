@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LabelsComponent } from './labels.component';
 
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./main-nav/main-nav.module').then((m) => m.MainNavModule),
+    component: LabelsComponent,
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class LabelsRoutingModule {}

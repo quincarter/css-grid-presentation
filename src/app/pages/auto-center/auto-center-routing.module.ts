@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AutoCenterComponent } from './auto-center.component';
 
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./main-nav/main-nav.module').then((m) => m.MainNavModule),
+    component: AutoCenterComponent,
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AutoCenterRoutingModule {}

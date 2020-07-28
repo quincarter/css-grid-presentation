@@ -1,0 +1,9 @@
+<mat-card class="mainCards" [title]="card.cardTitle" *ngFor="let card of cards">
+  <img class="cardImage" [ngClass]="card.cardTitle" mat-card-image [src]="card.image" [alt]="card.title">
+  <mat-card-header>
+    <mat-card-title [innerHTML]="card.title">
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content [innerHTML]="card.description">
+  </mat-card-content>
+</mat-card>
