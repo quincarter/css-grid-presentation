@@ -17,7 +17,14 @@ Install the dependencies (assuming you have npm/node installed on your machine a
 Run `npm run start` for a dev server. It should open your favorite browser and navigate to `http://localhost:4200/`, if not, type that in the address bar and go there yourself. The app will automatically reload if you change any of the source files.
 
 
-# Project setup:
+# Code Structure:
+
+* `src/app/main-nav` - contains the routes for the entire app.
+
+* `src/app/pages` - contains directories with each page component. Every page is lazy loaded when clicked on in the sidebar for better performance. Each page component is named exactly as it is named as a route for easier navigation if you want to type the url instead of clicking the sidebar; but that also makes it easier to find the components you are looking to play with. 
+
+* `src/app/components` - contains the sidebar code and the media object component. These were necessary to have separate from pages since they are shared components.
+
 
 
 # Why CSS Grid?

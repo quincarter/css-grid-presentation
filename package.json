@@ -1,6 +1,7 @@
 {
   "name": "cssgridpresentation",
   "version": "0.0.0",
+  "description": "css grid presentation",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --aot --open",
