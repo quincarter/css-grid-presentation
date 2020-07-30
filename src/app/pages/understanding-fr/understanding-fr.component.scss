@@ -1,0 +1,14 @@
+:host {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  grid-gap: 20px;
+}
+
+
+div {
+  display: grid;
+  font-size: 3rem;
+  place-content: center;
+  height: 10rem;
+  background-color: rgba(43, 226, 52, 0.56);
+}

@@ -1,0 +1,11 @@
+:host {
+  display: grid;
+  // grid-template-columns: repeat(3, 500px [col-start]);
+  //grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 30% [row1-end] 500px [third-line] 10rem [row4-start] 10% ;
+  grid-gap: 20px;
+}
+
+div {
+  background-color: rgba(127, 255, 212, 0.45);
+}
