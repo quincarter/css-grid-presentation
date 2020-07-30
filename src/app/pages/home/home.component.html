@@ -1,1 +1,49 @@
-<h1>Why CSS Grid?</h1>
+<h1 class="title">Why CSS Grid?</h1>
+<mat-card>
+  <mat-card-content class="cardContent">
+    CSS Grid Layout (aka “Grid”), is a two-dimensional grid-based layout system that aims to do nothing less than
+    completely change the way we design grid-based user interfaces. CSS has always been used to lay out our web pages, but
+    it’s never done a very good job of it. First, we used tables, then floats, positioning and inline-block, but all of
+    these methods were essentially hacks and left out a lot of important functionality (vertical centering, for instance).
+    Flexbox helped out, but it’s intended for simpler one-dimensional layouts, not complex two-dimensional ones (Flexbox
+    and Grid actually work very well together). Grid is the very first CSS module created specifically to solve the layout
+    problems we’ve all been hacking our way around for as long as we’ve been making websites.
+  </mat-card-content>
+</mat-card>
+
+<h2 class="title">Browser Support</h2>
+<img class="browserSupport" src="assets/img/cssgrid-browsersupport.png" alt="CSS Grid Browser Support">
+
+
+<h2 class="title">Words you should know</h2>
+<div class="wordsContainer">
+  <div class="term">
+    <h1 class="title">Grid Container</h1>
+    <p>This is a perfect example of a grid container and elements within it.</p>
+    <p>The element on which <code>display: grid</code> is applied. It’s the direct parent of all the grid items. In this example container is the grid container.</p>
+  </div>
+  <div class="term">
+    <h1 class="title">Grid Item</h1>
+    <p>The children (i.e. direct descendants) of the grid container. Here the item elements are grid items, but sub-item isn’t.</p>
+  </div>
+  <div class="term">
+    <h1 class="title">Grid Line</h1>
+    <p>The dividing lines that make up the structure of the grid. They can be either vertical (“column grid lines”) or horizontal (“row grid lines”) and reside on either side of a row or column. Here the yellow line is an example of a column grid line.</p>
+    <img src="https://css-tricks.com/wp-content/uploads/2018/11/terms-grid-line.svg" alt="grid lines">
+  </div>
+  <div class="term">
+    <h1 class="title">Grid Cell</h1>
+    <p>The space between two adjacent row and two adjacent column grid lines. It’s a single “unit” of the grid. Here’s the grid cell between row grid lines 1 and 2, and column grid lines 2 and 3.</p>
+    <img src="https://css-tricks.com/wp-content/uploads/2018/11/terms-grid-cell.svg" alt="grid cell">
+  </div>
+  <div class="term">
+    <h1 class="title">Grid Track</h1>
+    <p>The space between two adjacent grid lines. You can think of them like the columns or rows of the grid. Here’s the grid track between the second and third row grid lines.</p>
+    <img src="https://css-tricks.com/wp-content/uploads/2018/11/terms-grid-track.svg" alt="grid track">
+  </div>
+  <div class="term">
+    <h1 class="title">Grid Area</h1>
+    <p>The total space surrounded by four grid lines. A grid area may be composed of any number of grid cells. Here’s the grid area between row grid lines 1 and 3, and column grid lines 1 and 3.</p>
+    <img src="https://css-tricks.com/wp-content/uploads/2018/11/terms-grid-area.svg" alt="grid area">
+  </div>
+</div>

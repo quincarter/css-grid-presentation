@@ -1,0 +1,26 @@
+.title {
+  margin: 2rem 1rem 1rem;
+}
+.autofill {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
+  grid-gap: 20px;
+  height: 25vh;
+}
+
+.autofit {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+  grid-gap: 20px;
+  height: 25vh;
+}
+
+.column {
+  display: grid;
+  place-content: center;
+  font-family: sans-serif;
+  font-size: 200%;
+  border: 3px solid darkgreen;
+  border-radius: 10px;
+  background-color: rgba(10, 100, 255, 0.66);
+}

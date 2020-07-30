@@ -1,11 +1,11 @@
 :host {
   display: grid;
-  height: 85.96vh;
+  height: 86.96vh;
   place-items: center;
 }
 
 .mat-card {
-  display: grid;
+  display: inherit;
   place-items: center;
   padding: 3rem;
 }

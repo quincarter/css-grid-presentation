@@ -1,0 +1,34 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+}
+
+.playingCardWrapper {
+  display: inline-block;
+  position: relative;
+
+
+  // @TODO- this is where flexbox works
+  .playingCard {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .5rem;
+
+    height: 20rem;
+    width: 14rem;
+  }
+
+  .front {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  &:hover {
+    .front {
+      display: inline;
+    }
+  }
+}

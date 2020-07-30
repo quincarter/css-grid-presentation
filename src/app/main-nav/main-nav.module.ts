@@ -20,6 +20,6 @@ import { SideMenuExpandModule } from '../components/side-menu-expand/side-menu-e
     MatIconModule,
     MainNavRoutingModule,
     SideMenuExpandModule,
-  ],
+  ]
 })
 export class MainNavModule {}

@@ -1,0 +1,24 @@
+.cardContent {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.title {
+  margin: 1rem 0;
+}
+
+.browserSupport {
+  width: 100%;
+}
+
+.wordsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.term {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 122, 122, 0.65);
+}
