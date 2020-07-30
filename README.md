@@ -2,9 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
 
+## Run this project locally and play around!
+
+Clone this repo:
+
+`git clone https://github.com/quincarter/css-grid-presentation.git`
+
+Install the dependencies (assuming you have npm/node installed on your machine already)
+
+`npm install`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. It should open your favorite browser and navigate to `http://localhost:4200/`, if not, type that in the address bar and go there yourself. The app will automatically reload if you change any of the source files.
+
+
+# Project setup:
+
 
 # Why CSS Grid?
 
